@@ -1,0 +1,8 @@
+com\taskmanager\servlet\TaskServlet.class
+com\taskmanager\dao\TaskDao.class
+com\taskmanager\dao\TaskDaoImpl.class
+com\taskmanager\model\Task$TaskStatus.class
+com\taskmanager\service\TaskService.class
+com\taskmanager\util\DBUtil.class
+com\taskmanager\model\Task.class
+com\taskmanager\util\DBInitializer.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resources cachingAllowed="true" cacheMaxSize="100000" />
+    
+    <!-- Настройка путей к JSP -->
+    <Resources className="org.apache.catalina.webresources.StandardRoot">
+        <PreResources className="org.apache.catalina.webresources.DirResourceSet"
+                     base="${catalina.base}/webapps/task-manager/WEB-INF/views"
+                     webAppMount="/WEB-INF/views" />
+    </Resources>
+
+    <!-- Настройка сессии -->
+    <Manager className="org.apache.catalina.session.PersistentManager">
+        <Store className="org.apache.catalina.session.FileStore" />
+    </Manager>
+</Context> 
